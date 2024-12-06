@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import React from 'react'
-import { GoArrowUpRight } from "react-icons/go";
+// import { GoArrowUpRight } from "react-icons/go";
 
 const LandingPage = () => {
   
@@ -39,7 +39,7 @@ const LandingPage = () => {
            <div className='start flex items-center gap-3'>
              <div className='border-[1px] rounded-full border-zinc-700 font-semibold text-md px-4 py-2 uppercase cursor-pointer'>Start the Project
             </div>
-             <div className='w-9 h-9 flex items-center justify-center rounded-full border-[1px] border-zinc-600  text-black'><GoArrowUpRight /></div>
+             <div className='w-9 h-9 flex items-center justify-center rounded-full border-[1px] border-zinc-600  text-black'></div>
            </div>
         </div>
     </div>
